@@ -1,0 +1,161 @@
+/* compile */
+.woo-stock-sync-mismatch-label,
+.woo-stock-sync-no-label,
+.woo-stock-sync-yes-label {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top left;
+  vertical-align: top;
+}
+
+.woo-stock-sync-no-label {
+  background-image: url("../img/no.png");
+}
+
+.woo-stock-sync-yes-label {
+  background-image: url("../img/yes.png");
+}
+
+.woo-stock-sync-mismatch-label {
+  background-image: url("../img/warning.png");
+}
+
+/**
+ * Check credentials in the settings page
+ */
+.woo-stock-sync-check-credentials-indicator {
+  display: inline-block;
+  width: auto;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-left: 10px;
+  padding-left: 21px;
+}
+
+.woo-stock-sync-check-credentials-processing {
+  background-image: url("../img/wpspin_light.gif");
+}
+
+.woo-stock-sync-check-credentials-success {
+  background-image: url("../img/yes.png");
+}
+
+.woo-stock-sync-check-credentials-fail {
+  background-image: url("../img/no.png");
+}
+
+/**
+ * API credentials table
+ */
+td.forminp-wss_credentials_table {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+td.forminp-wss_credentials_table > table th,
+td.forminp-wss_credentials_table > table td {
+  width: auto;
+  margin-bottom: 9px;
+  padding: 15px 10px;
+}
+
+td.forminp-wss_credentials_table > table td.min,
+td.forminp-wss_credentials_table > table th.min {
+  width: 2%;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+input.button.run_reportbutton {
+    display: none !important;
+}
+
+
+th.justremove {
+    width: 8% !important;
+}
+th.enabledisable,
+.enabledisable {
+    text-align: center !important;
+}
+
+.active.plugin-version-author-uri a.thickbox.open-plugin-details-modal {
+    display: none !important;
+}
+
+ .woocommerce table.form-table table input[type=text]{
+  width: 100% !important;
+ }
+
+/*# sourceMappingURL=woo-stock-sync-admin.css.map */
