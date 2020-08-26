@@ -1,4 +1,4 @@
-=== Stock Sync for WooCommerce ===
+=== Stock Sync for WooCommerce Especially for Dukan Marketplace===
 Contributors: wooelements
 Tags: woocommerce, stock synchronization, shared stock
 Requires at least: 4.5
